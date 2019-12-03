@@ -1,1 +1,6 @@
+node{
+    stage ('scm-checkout'){
+       git 'https://github.com/ravi-dev/my-app'
+    }
+
 #welcome to pull request plugin
